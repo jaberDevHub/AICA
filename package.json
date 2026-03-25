@@ -1,0 +1,14 @@
+{
+  "name": "modern-chat-app",
+  "version": "1.0.0",
+  "description": "Modern AI Chat Application",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'",
+    "start": "vercel dev"
+  },
+  "keywords": ["ai", "chat", "modern", "vercel"],
+  "author": "AI Chat Developer",
+  "license": "MIT"
+}
