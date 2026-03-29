@@ -8,7 +8,15 @@
     "build": "echo 'Build complete'",
     "start": "vercel dev"
   },
-  "keywords": ["ai", "chat", "modern", "vercel"],
+  "keywords": [
+    "ai",
+    "chat",
+    "modern",
+    "vercel"
+  ],
   "author": "AI Chat Developer",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
 }
