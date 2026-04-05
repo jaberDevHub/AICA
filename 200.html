@@ -9,7 +9,6 @@
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
     
-    <script src="config.local-working.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -650,6 +649,16 @@
     </div>
 
     <script>
+        // Internal configuration mapping for UI
+        window._0xgetModelConfig = function() {
+            return {
+                'Qwen': { model: 'Qwen' },
+                'KIMI': { model: 'KIMI' },
+                'Qwen3-14B': { model: 'Qwen3-14B' },
+                'Qwen3.5-397B-A17B-Q8': { model: 'Qwen3.5-397B-A17B-Q8' }
+            };
+        };
+
         // Disable F12 and other developer tools shortcuts
         document.addEventListener('keydown', function(e) {
             // F12 key
