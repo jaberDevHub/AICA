@@ -5,10 +5,20 @@
   "main": "index.html",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'Build complete'",
-    "start": "vercel dev"
+    "dev:any": "vercel dev --listen 0",
+    "start": "vercel dev",
+    "start:any": "vercel dev --listen 0",
+    "build": "echo 'Build complete'"
   },
-  "keywords": ["ai", "chat", "modern", "vercel"],
+  "keywords": [
+    "ai",
+    "chat",
+    "modern",
+    "vercel"
+  ],
   "author": "AI Chat Developer",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
 }

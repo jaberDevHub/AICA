@@ -53,3 +53,22 @@ api-keys.txt
 # Lock files
 yarn.lock
 pnpm-lock.yaml
+
+# Sensitive specific files
+env.example
+.env*
+
+# IDE Local History
+.history/
+
+# Custom Config Files
+config.local-working.js
+config.production.js
+
+# Local Dev HTML Duplicate
+local-chat.html
+
+# Common duplicate files (Windows/macOS)
+* - Copy.*
+* (1).*
+* (2).*
